@@ -17,6 +17,9 @@
     * This command is used to update the master repository with the developer’s updated project version from the local copy. 
   * Pull
     * This command allows the developer to request and retrieve code from a repository owner, in order to review and potentially make changes.  The repository owner will receive notification of said pull through Git Hub, and will decide whether or not to merge their repository with the proposed changes. If the repository owner elects not to merge the proposed changes into the master repository, they will click on the “Closed Pull Request” button with which they are presented, effectively rejecting the proposed change. 
+  * Remote Add/Remove/Show
+    * This command is used when the main repository is forked (duplicated) for remote editing]\,t\\\v.  It is used to keep the remote fork on the developer’s computer synchronized with the original repository andany concurrent that may have been made by others upstream.  
+
 
 
 
