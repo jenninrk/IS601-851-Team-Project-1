@@ -62,5 +62,5 @@ Randee -  Feature:  Added Git Command definitions for Master Branch, committed a
 
 Randee - Task: Added source citations for Git Command Definitions, and Git Flow, committed and pushed to Master
 
-Randee - Task: Added changelog entries to Readme file, committed and pushed to Master
+Randee - Task: Added changelog entries to Readme file, committed and pushed to Master, committed and pushed to Master
 
