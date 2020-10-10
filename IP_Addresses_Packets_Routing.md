@@ -1,0 +1,14 @@
+IP ADDRESSES, PACKETS AND ROUTING
+
+One of the main issues that needed to be addressed was the expeditious routing of information across the network. 
+
+The network had as endpoints servers, where information was both originated and delivered.  Throughout the network were devices called routers, which carried address information, and which announced themselves and their location to nearby routers who could use each other to route information to known endpoints not necessarily known by them, but perhaps known by other nearby routers. The servers sent information through intermediate routers in search of destination servers, using the IP addresses of the destination server and intermediate routers to get there. 
+
+In traditional analog voice telephone calls, a circuit was said to be “nailed up” or established at the call connection, and was utilized for the duration of the call, only coming down at its conclusion.  A second call between the same two end devices might have an entirely different path established in a subsequent call, depending on the availability of facilities and the relative “busyness” of the surrounding network elements, composed of routers and copper cables.  This was the order of the day in the late 1960’s and early 1970’s, and was how the telecommunications network was architected. 
+
+Data communications however was a slightly different animal.  Unlike voice, which was bandwidth intensive, data was much smaller, using only 0 and 1 bits bundled together in specific sequences.  It was not sensitive to latency or noise like voice as its sub elements were fixed not variable.  And the need for speed in shipping data around was greater.  
+
+With these requirements in mind, Paul Baran developed a concept called “packet-switching”  With packet switching, also called X.25 networks, data elements could be broken up, or packetized.  Each element could then have assigned to it what was known as a “header”, or effectively an address, telling where the packet needed to go in the network (what endpoint” and also in what sequence the network element needed to be placed at the receiving end. 
+
+In this way, data "pieces", or packets,  could be routed through the network through the most free data link layer midpoints, and could even arrive at the destination end out of sequence, as the remote end layer 2 protocol could be relied upon to re-sequence arriving data into it’s original and usable format.  Missing pieces could be re-requested by the destination end until all the data was received and re-sequenced.  In this manner, data could move through the network very quickly, leaving facilities as free as possible for other traffic.  This very efficient network design allowed for multiple data and voice calls to be able to occur simultaneously with minimal congestion. 
+
